@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="monospace">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#4a9eda"/>
+    </marker>
+    <marker id="ar-o" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#da8a4a"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="340" fill="#1a1a2e" rx="12"/>
+
+  <!-- Left character: Tech lead -->
+  <g transform="translate(28, 50)">
+    <!-- Hair -->
+    <rect x="21" y="0" width="28" height="7" fill="#5c6bc0"/>
+    <rect x="14" y="7" width="42" height="7" fill="#5c6bc0"/>
+    <!-- Face -->
+    <rect x="14" y="14" width="42" height="14" fill="#FFDAB9"/>
+    <rect x="21" y="21" width="7" height="7" fill="#333"/>
+    <rect x="42" y="21" width="7" height="7" fill="#333"/>
+    <rect x="28" y="28" width="14" height="7" fill="#E8967A"/>
+    <!-- Body -->
+    <rect x="7" y="35" width="56" height="28" fill="#4a9eda"/>
+    <rect x="14" y="63" width="14" height="14" fill="#444"/>
+    <rect x="42" y="63" width="14" height="14" fill="#444"/>
+    <!-- Label -->
+    <text x="35" y="90" font-size="9px" fill="#aaa" text-anchor="middle">Tech Lead</text>
+  </g>
+
+  <!-- Speech bubble 1: left character -->
+  <rect x="130" y="29" width="260" height="26" fill="#1e2a4a" stroke="#4a9eda" stroke-width="1.5" rx="8"/>
+  <polygon points="128,41 119,47 128,46" fill="#1e2a4a" stroke="#4a9eda" stroke-width="1.5"/>
+  <rect x="127" y="40" width="3" height="7" fill="#1e2a4a"/>
+  <text x="145" y="46" font-size="12px" fill="#4a9eda">🧱 Build the scaffold first</text>
+
+  <!-- Arrow right -->
+  <line x1="392" y1="42" x2="465" y2="42" stroke="#4a9eda" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- Right character: Engineer -->
+  <g transform="translate(680, 50)">
+    <!-- Hair -->
+    <rect x="21" y="0" width="28" height="7" fill="#8B5E3C"/>
+    <rect x="14" y="7" width="42" height="7" fill="#8B5E3C"/>
+    <!-- Face -->
+    <rect x="14" y="14" width="42" height="14" fill="#FFDAB9"/>
+    <rect x="21" y="21" width="7" height="7" fill="#333"/>
+    <rect x="42" y="21" width="7" height="7" fill="#333"/>
+    <rect x="28" y="28" width="14" height="7" fill="#E8967A"/>
+    <!-- Body -->
+    <rect x="7" y="35" width="56" height="28" fill="#da8a4a"/>
+    <rect x="14" y="63" width="14" height="14" fill="#444"/>
+    <rect x="42" y="63" width="14" height="14" fill="#444"/>
+    <!-- Label -->
+    <text x="35" y="90" font-size="9px" fill="#aaa" text-anchor="middle">Engineer</text>
+  </g>
+
+  <!-- Speech bubble 2: right character -->
+  <rect x="490" y="71" width="260" height="26" fill="#2a1e1e" stroke="#da8a4a" stroke-width="1.5" rx="8"/>
+  <polygon points="752,83 761,89 752,88" fill="#2a1e1e" stroke="#da8a4a" stroke-width="1.5"/>
+  <rect x="750" y="82" width="3" height="7" fill="#2a1e1e"/>
+  <text x="505" y="88" font-size="12px" fill="#da8a4a">🔧 I'll fill in the logic</text>
+
+  <!-- Arrow left -->
+  <line x1="488" y1="84" x2="420" y2="84" stroke="#da8a4a" stroke-width="2" marker-end="url(#ar-o)"/>
+
+  <!-- Speech bubble 3 -->
+  <rect x="130" y="113" width="260" height="26" fill="#1e2a4a" stroke="#4a9eda" stroke-width="1.5" rx="8"/>
+  <polygon points="128,125 119,131 128,130" fill="#1e2a4a" stroke="#4a9eda" stroke-width="1.5"/>
+  <rect x="127" y="124" width="3" height="7" fill="#1e2a4a"/>
+  <text x="145" y="130" font-size="12px" fill="#4a9eda">✅ Cards can run in parallel!</text>
+
+  <!-- Arrow right -->
+  <line x1="392" y1="126" x2="465" y2="126" stroke="#4a9eda" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- Speech bubble 4 -->
+  <rect x="490" y="155" width="260" height="26" fill="#2a1e1e" stroke="#da8a4a" stroke-width="1.5" rx="8"/>
+  <polygon points="752,167 761,173 752,172" fill="#2a1e1e" stroke="#da8a4a" stroke-width="1.5"/>
+  <rect x="750" y="166" width="3" height="7" fill="#2a1e1e"/>
+  <text x="505" y="172" font-size="12px" fill="#da8a4a">🧹 Easy PR review, one context</text>
+
+  <!-- Title -->
+  <text x="400" y="240" font-size="28px" fill="#e0e0e0" text-anchor="middle" font-weight="bold">specut</text>
+  <text x="400" y="262" font-size="12px" fill="#888" text-anchor="middle">spec → scaffold + cut</text>
+
+  <!-- Tagline -->
+  <text x="400" y="305" font-size="11px" fill="#555" text-anchor="middle">Scaffold first. Fill in parallel. Review in peace.</text>
+</svg>
